@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --body-background: #fefae0;
+    --combina-dos: #606c38;
+    --combina-tres: #283618;
+    --combina-cuatro: #dda15e;
+    --combina-cinco: #bc6c25;
+    --main-color-text: black;
+}
+
+body{
+    background-color: var(--body-background);
+    font-family: Suisse Intl,Helvetica,Arial,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+header{
+    max-width: 1280px;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    margin-right: 5.6rem;
+    margin-left: 5.6rem;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+header ul{
+    list-style: none;
+    color: var(--combina-dos);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.header-ul{
+    gap: 1.5rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
